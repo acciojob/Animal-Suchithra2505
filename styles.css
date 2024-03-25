@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+
+    /* Style for the main container */
+    #animal-photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    /* Style for the heading */
+    #photo-heading {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    /* Style for the images */
+    .animal-img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+ 
